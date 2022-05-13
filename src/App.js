@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Partners from './components/Partners'
-import Team from './components/Team'
+import Navbar from './Components/Sections/Navbar'
+import Partners from './Components/Sections/Partners'
 import './App.css'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <div className='App'>
       <Navbar/>
       <Partners/>
-      <Team/>
     </div>
   )
 }
