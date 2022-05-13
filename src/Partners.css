@@ -1,0 +1,131 @@
+.partners_container{
+    background-color: #CFCCF5;
+    margin: 0;
+    padding: 2.25rem 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #313137;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+span{
+    color: #5F54DC;
+    font-weight: bolder;
+}
+
+.row{
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap:1.5em;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.col{
+    background-color: #313137;
+    width: 100%;
+    height: 8.625em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.8em;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+}
+
+.col:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all 400ms;
+    background-color: #5F54DC;
+    box-shadow: inset;
+}
+
+.card_partners{
+    width:80%;
+    align-content:stretch;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.card_partners img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 934px){
+    .partners_container{
+        padding: 2.25em 2em;
+    }
+    .row{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .col{
+        height: 6rem;
+    }
+    .card_partners{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .partners_container{
+        padding: 2.25em 3.5em;
+    }
+    .row{
+        margin-top: -1em;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1em;
+    }
+    .col{
+        height:6em;
+    }
+
+
+}
+
+@media screen and (max-width: 517px){
+    h2{
+        font-size: 2em;
+    }
+    .row{
+        margin-top: 1em;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 1em;
+    }
+
+    .col{
+        margin-top: -0.3em;
+        height: 6em;
+    }
+
+    .card_partners{
+        width: 55%;
+    }
+
+    .partners_container{
+        padding: 2.25em 1em;
+    }
+}
+
+@media screen and (max-width: 300px){
+    h2{
+        font-size: 1.6em;
+    }
+    .partners_container{
+        padding: 2.25em 3em;
+    }
+
+    .row{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+}

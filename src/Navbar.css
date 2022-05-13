@@ -1,0 +1,41 @@
+.nav__desktop{
+    display: inline-flex;
+}
+
+.nav__desktop a{
+    padding: 1rem 1.2rem;
+    border-radius: 0.85em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #323232;
+    text-decoration: none; 
+    transition: 500ms;  
+}
+
+.nav__desktop a:not(:last-child):hover{
+    transform: translateY(-5px);
+    transition: 500ms ease-out;
+}
+
+#rojo{
+    color: #f45b69;
+}
+
+
+#brillo{
+    color: #f45b69;
+    -webkit-tap-highlight-color: transparent;
+    background: rgba(244,91,105,0.1);
+    transition: background-color 0.1s, color 0.1s, box-shadow 0.05s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#brillo:hover{
+    background: #f45b69;
+    color: #fff;
+}
+
+#brillo:active {
+    box-shadow: 0 0 0 2px #fff;
+  }
