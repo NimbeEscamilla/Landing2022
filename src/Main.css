@@ -1,0 +1,54 @@
+#main{
+    margin: 0 2rem;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__title{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.main__title h1{
+    display: block;
+}
+
+.main__left{
+    display: block;
+    width: 50%;
+    position: relative;
+    padding: 8% 2rem 6rem 2rem;
+    height: auto;
+}
+
+.main__left p{
+    font-size: 1.2rem;
+    width: 95%
+}
+
+.solid__Sally{
+    display: inline-flex;
+    max-width: 250px;
+    opacity: 1;
+    transition: ease 0.4s;
+    min-width: 200px;
+    height: auto;
+}
+
+.solid__Sally:hover{
+    transform: translate(0, -30px);
+    transition: 400ms ease-out;
+}
+
+#rojo{
+    color: #f45b69;
+}
+
+#azul{
+    color: #5f54dc;
+}
