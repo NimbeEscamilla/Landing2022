@@ -1,5 +1,5 @@
 import React from 'react'
-import Partners from './Components/Sections/partners'
+import Partners from './Components/Sections/Partners'
 import './App.css'
 import Header from './Components/Sections/Header'
 

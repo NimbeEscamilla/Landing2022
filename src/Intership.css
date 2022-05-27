@@ -1,0 +1,53 @@
+.intership{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intership__title{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.intership__title h1{
+    display: block;
+}
+
+.intership__right{
+    display: block;
+    width: 50%;
+    position: relative;
+    padding: 8% 2rem 6rem 2rem;
+    height: auto;
+}
+
+.intership__right p{
+    font-size: 1.2rem;
+    width: 95%
+}
+
+.solid__Sally{
+    display: inline-flex;
+    max-width: 250px;
+    opacity: 1;
+    transition: ease 0.4s;
+    min-width: 200px;
+    height: auto;
+}
+
+.solid__Sally:hover{
+    transform: translate(0, -30px);
+    transition: 400ms ease-out;
+}
+
+#rojo{
+    color: #f45b69;
+}
+
+#rosa{
+    color: #f35c69;
+}
+
+#azul{
+    color: #5f54dc;
+}
