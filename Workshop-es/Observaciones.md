@@ -8,7 +8,7 @@ Favor de anotar de que trata, nombre de la persona que lo escribio y una breve d
 
 Hola, estoy implementando una nueva documentacion.
 
-## Anota el tuyo 
+## observaciones del equipo y terceros
 
 * 
 

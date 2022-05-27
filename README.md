@@ -6,7 +6,7 @@
 
 [English version](/Workshop-en/README.md)
 
-## Desripcion :dart:
+## Descripcion :dart:
 
 Somos el equipo de Developers de [**Workshop**](https://www.facebook.com/workshoptech), en el cual aqui trabajamos en nuestra pagina web, junto con la documentacion nesesaria para cumplir con nuestras espectativas y tener un mejor desarrollo como Developers.
 
@@ -18,7 +18,7 @@ Somos el equipo de Developers de [**Workshop**](https://www.facebook.com/worksho
 
 [Innovaciones :eyes:](/Workshop-es/Ideas.md)
 
-[Observaciones]()
+[Observaciones](/Workshop-es/Observaciones.md)
 
 ## Devs
 
