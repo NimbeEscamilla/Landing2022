@@ -1,24 +1,22 @@
 # Workshop Landing Page
 
-[Workshop Page]()
-
 ![Logo](/Workshop-es/workshop.png)
 
-[English version](/Workshop-en/README.md)
-
 ## Descripcion :dart:
+
+[English version](/Workshop-en/README.md)
 
 Somos el equipo de Developers de [**Workshop**](https://www.facebook.com/workshoptech), en el cual aqui trabajamos en nuestra pagina web, junto con la documentacion nesesaria para cumplir con nuestras espectativas y tener un mejor desarrollo como Developers.
 
 ## Indice :pushpin:
 
-[Actuales Desarrolladores :wave:](/Workshop-es/Devs_actuales.md)
+* [Actuales Desarrolladores :wave:](/Workshop-es/Devs_actuales.md)
 
-[Requerimientos :books:](/Workshop-es/Requerimientos.md)
+* [Requerimientos :books:](/Workshop-es/Requerimientos.md)
 
-[Innovaciones :eyes:](/Workshop-es/Ideas.md)
+* [Innovaciones :eyes:](/Workshop-es/Ideas.md)
 
-[Observaciones](/Workshop-es/Observaciones.md)
+* [Observaciones](/Workshop-es/Observaciones.md)
 
 ## Devs
 
