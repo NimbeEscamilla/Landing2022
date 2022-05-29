@@ -27,10 +27,14 @@
 }
 
 .main__left p{
-    font-size: 1.2rem;
-    width: 95%
+    font-size: 1.5rem;
+    width: 90%
 }
-
+.main__left a{
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 90%
+}
 .solid__Sally{
     display: inline-flex;
     max-width: 250px;

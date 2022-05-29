@@ -1,40 +1,22 @@
-section#internship {
+#intership{
+    margin: 0 2rem;
     box-sizing: border-box;
-    height: auto;
+}
+.container {
     padding: 2.25rem;
     display: flex;
-    flex-direction: column;
-    padding: 2.25rem;
+    justify-content: space-between
 }
-section#internship .text {
-    font-size: 1.25rem;
-    line-height: 110%;
-    align-self: center;
-}
-section#internship .text h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    padding: 20px 0px;
-}
-section#internship img {
-    align-self: center;
-    width: 250px;
-    height: auto;
-    padding: 1rem;
-}
-
-.intership__title{
-    text-align: right;
+.container__title {
+    color: #f35c69;
+    font-weight: bold;
     font-size: 4rem;
-    font-weight: 600;
     padding: 20px 0;
 }
-
-.intership__title h1{
+.container__title h2{
     display: block;
 }
-
-.intership__right{
+.container__right{
     display: block;
     width: 50%;
     position: relative;
@@ -42,20 +24,19 @@ section#internship img {
     height: auto;
 }
 
-.intership__right p{
+.container__right p{
     font-size: 1.5rem;
     width: 90%
 }
-
+.container__img{
+    display: inline-flex;
+    vertical-align: top;
+    opacity: 1;
+}
 #rosa{
     color: #f35c69;
 }
-
 #azul{
     color: #5f54dc;
-}
-
-#blanco{
-    color: #F7F3F4;
 }
 
