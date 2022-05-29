@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa13960e.css",
+    "main.js": "/static/js/main.52b52de1.js",
+    "static/js/787.f0d82cd1.chunk.js": "/static/js/787.f0d82cd1.chunk.js",
+    "static/media/Sally.svg": "/static/media/Sally.66aa1a80e87b595806ec6b7b5473b236.svg",
+    "static/media/uady.png": "/static/media/uady.d168ccff7b2c3e6fa705.png",
+    "static/media/salesforce.png": "/static/media/salesforce.5d9f75d8144228b4ae75.png",
+    "static/media/women_code.png": "/static/media/women_code.d073954b773e65b9dbde.png",
+    "static/media/soldai.svg": "/static/media/soldai.5fb41e1d6c6a5b267a501d1ce349809d.svg",
+    "static/media/coati.svg": "/static/media/coati.b1e1c173ef35bce2a5603f294ba6a4fe.svg",
+    "static/media/checa.svg": "/static/media/checa.259979da4ce791dce582b7abd6648e18.svg",
+    "static/media/yellowme.svg": "/static/media/yellowme.a48733fec05e5641b60cddf0c6ea00b5.svg",
+    "static/media/encora.svg": "/static/media/encora.65fdd8e019358a061cbdb77fd2715f19.svg",
+    "index.html": "/index.html",
+    "main.fa13960e.css.map": "/static/css/main.fa13960e.css.map",
+    "main.52b52de1.js.map": "/static/js/main.52b52de1.js.map",
+    "787.f0d82cd1.chunk.js.map": "/static/js/787.f0d82cd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa13960e.css",
+    "static/js/main.52b52de1.js"
+  ]
+}
