@@ -1,9 +1,30 @@
-.intership{
+section#internship {
+    box-sizing: border-box;
+    height: auto;
+    padding: 2.25rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    padding: 2.25rem;
+}
+section#internship .text {
+    font-size: 1.25rem;
+    line-height: 110%;
+    align-self: center;
+}
+section#internship .text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+section#internship img {
+    align-self: center;
+    width: 250px;
+    height: auto;
+    padding: 1rem;
 }
 
 .intership__title{
+    text-align: right;
     font-size: 4rem;
     font-weight: 600;
     padding: 20px 0;
@@ -22,26 +43,8 @@
 }
 
 .intership__right p{
-    font-size: 1.2rem;
-    width: 95%
-}
-
-.solid__Sally{
-    display: inline-flex;
-    max-width: 250px;
-    opacity: 1;
-    transition: ease 0.4s;
-    min-width: 200px;
-    height: auto;
-}
-
-.solid__Sally:hover{
-    transform: translate(0, -30px);
-    transition: 400ms ease-out;
-}
-
-#rojo{
-    color: #f45b69;
+    font-size: 1.5rem;
+    width: 90%
 }
 
 #rosa{
@@ -51,3 +54,8 @@
 #azul{
     color: #5f54dc;
 }
+
+#blanco{
+    color: #F7F3F4;
+}
+
