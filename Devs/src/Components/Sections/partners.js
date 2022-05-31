@@ -80,18 +80,21 @@ const cards = [
 
 function Partners() {
   return (
-    <div className='partners_container'>
-        <h2>Nuestros <span>Partners</span>.</h2>
-        <div className='row'>
-            {
-                cards.map(card => (
-                    <div className='col' key={card.id}>
-                       <Card URL={card.link} imageURL={card.image}/>
-                    </div>    
-                ))
-            }
+    <section className='partners' id='partners'>
+        <div className='partners_container'>
+            <h2>Nuestros <span>Partners</span>.</h2>
+            <div className='row'>
+                {
+                    cards.map(card => (
+                        <div className='col' key={card.id}>
+                           <Card URL={card.link} imageURL={card.image}/>
+                        </div>    
+                    ))
+                }
+            </div>
         </div>
-    </div>
+    </section> 
+    
   )
 }
 

@@ -5,8 +5,8 @@
 .nav__desktop a{
     padding: 1rem 1.2rem;
     border-radius: 0.85em;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     color: #323232;
     text-decoration: none; 
     transition: 500ms;  

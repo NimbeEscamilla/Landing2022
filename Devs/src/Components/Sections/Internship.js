@@ -1,14 +1,14 @@
 import React from 'react'
 import Sally from '../../assets/Sally-22.png'
-import "../../Intership.css"
+import "../../Internship.css"
 
 function Intership() {
     return ( 
-        <section id='intership'>
+        <section id='internship'>
             <div className='container'>
                 <div className='container__right'>
                     <h2 id='rosa' className='container__title'>
-                    Intership
+                    Internship
                     </h2>
                         <p>
                         Es un programa organizado por Workshop que toma lugar a lo largo del año. La principal meta del programa es detectar estudiantes con
