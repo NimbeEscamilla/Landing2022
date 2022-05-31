@@ -92,7 +92,7 @@ li{
 } 
 
 #github::before{
-    content: url(./assets/github.png);
+    content: url(./assets/github_icon.png);
     z-index: -99;
     
 }
