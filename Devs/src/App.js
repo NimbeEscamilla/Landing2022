@@ -6,6 +6,9 @@ import Documents from './Components/Sections/Documents'
 import Contact from './Components/Sections/Contact'
 import Main from './Components/Sections/Main'
 import './App.css'
+import Team from './Components/Sections/team'
+
+
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
       <Main/>
       <Internship/>
       <Partners/>
+      <Team/>
       <Documents/>
       <Contact/>
     </div>
