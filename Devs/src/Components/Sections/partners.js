@@ -81,7 +81,7 @@ const cards = [
 function Partners() {
   return (
     <div className='partners_container'>
-        <h2>Nuestros <span>Partners</span>.</h2>
+        <h2 id='partners'>Nuestros <span>Partners</span>.</h2>
         <div className='row'>
             {
                 cards.map(card => (
