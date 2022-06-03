@@ -3,7 +3,6 @@ import './Navbar'
 import Navbar from './Navbar'
 import "../../Header.css"
 import Logo from '../../assets/Logo.jpg'
-import Main from './Main'
 
 function Header() {
   return (
@@ -14,7 +13,6 @@ function Header() {
         </div>
         <Navbar/> 
       </header>
-      <Main/>
     </section>
   )
 }

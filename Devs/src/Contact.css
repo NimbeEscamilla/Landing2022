@@ -1,0 +1,121 @@
+.contact{
+    position: relative;
+    padding: 2.25rem;
+    height: 100vh;
+    padding: 0 5rem;
+}
+
+.contact::before{
+    content: url(./assets/gizmo.svg);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -99;
+    width: 100px;
+    height: 165.68047px;
+}
+
+.contact__container{
+    padding-top: 170px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contact__message{
+    font-size: 2rem;
+    line-height: 110%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact__linkslist{
+    width: 60%;
+    margin-top: 3.75rem;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.li__button{
+    font-size: 1.8rem;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    line-height: 205%;
+    -webkit-tap-highlight-color: transparent;
+    background: rgba(244,91,105,0.1);
+    color: #f45b69;
+    transition: background-color 0.1s, color 0.1s, box-shadow 0.05s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.li__button:hover{
+    transition: .1s;
+    background-color: #f45b69;
+}
+
+.blue{
+    color: #5f54dc
+}
+
+.red{
+    color: #f45b69;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+.contact__footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 1.25rem;
+} 
+
+#github::before{
+    content: url(./assets/github_icon.png);
+    z-index: -99;
+    
+}
+
+#instagram::before{
+    content: url(./assets/instagram.png);
+    z-index: -99;
+    
+}
+
+#linkedin::before{
+    content: url(./assets/linkedin.png);
+    z-index: -99;
+    
+}
+
+#facebook::before{
+    content: url(./assets/facebook.png);
+    z-index: -99;
+    
+}
+#mail::before{
+    content: url(./assets/mail.png);
+    z-index: -99;
+    
+}

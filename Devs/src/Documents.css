@@ -1,0 +1,47 @@
+
+
+#docsWorkshop {
+    background-color: #FFE9E9;
+    padding: 5rem 4rem;
+    display: block;
+}
+
+#docsWorkshop h2 {
+    
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.partners__grid{
+    margin-top: 2.25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14.75em, 1fr));
+    row-gap: 1rem;
+    column-gap: 2rem;
+}
+
+.partners__card{
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8em;
+    box-sizing: border-box;
+    width: 16.625em;
+    height: 8.625em;
+    transition: 150ms;
+}
+
+.partners__card:hover{
+    transition: 150ms;
+    transform: translatey(-0.5rem);
+}
+
+.card__image{
+    box-sizing: inherit;
+    object-fit: contain;
+    width: 6.875em;
+    height: 80%;
+}
