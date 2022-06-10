@@ -1,34 +1,30 @@
-# Getting Started with Create React App
+# Workshop Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](/Workshop-es/workshop.png)
 
-## Available Scripts
+## Descripcion :dart:
 
-In the project directory, you can run:
+[English version](/Workshop-en/README.md)
 
-### `npm start`
+Somos el equipo de Developers de [**Workshop**](https://www.facebook.com/workshoptech), en el cual aqui trabajamos en nuestra pagina web, junto con la documentacion nesesaria para cumplir con nuestras espectativas y tener un mejor desarrollo como Developers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Indice :pushpin:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Actuales Desarrolladores :wave:](/Workshop-es/Devs_actuales.md)
 
-### `npm test`
+* [Requerimientos :books:](/Workshop-es/Requerimientos.md)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Innovaciones :eyes:](/Workshop-es/Ideas.md)
 
-### `npm run build`
+* [Observaciones](/Workshop-es/Observaciones.md)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Devs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Si buscan el "inicio" anterior y las carpetas, Todo esta en la carpeta "Devs".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Ingresar al apartado Devs](/Devs/Notes.md)
 
+<<<<<<< HEAD
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -70,3 +66,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 Made with 💜 by Workshop Team
+=======
+>>>>>>> dev
