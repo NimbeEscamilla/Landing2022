@@ -1,4 +1,3 @@
-import React from 'react'
 import Fernan from '../../assets/Miembros/Fernan.jpg'
 import Rafa from '../../assets/Miembros/Rafa.jpeg'
 import Vero from '../../assets/Miembros/Vero.webp'

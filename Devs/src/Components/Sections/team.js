@@ -6,7 +6,6 @@ import Github from '../../assets/Github.png'
 import Gmail from '../../assets/Gmail.png'
 class team extends Component {
     render() {
-        let carts;
         //code
         return (
             <div className='team_container'>
