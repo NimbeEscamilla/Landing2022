@@ -12,7 +12,7 @@ class team extends Component {
                 <h2 id='team' className='h2_team'>Nuestro <span className='span_team'>Equipo</span>.</h2>
                 <div className='row_team'>
                     {
-                        carts = card.map(card => (
+                         card.map(card => (
                             <li className='list_team'>
                                 <div className='col_team' key={card.id}>
                                     <div class="content">
